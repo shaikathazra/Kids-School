@@ -95,6 +95,10 @@ nav{
     background-color:#FEA301 ;
     color: #FFFFFF;
 } 
+.mbl{
+    display: none;
+}
+
 .banner{
     display: flex;
     justify-content: space-between;
@@ -378,7 +382,31 @@ marquee{
  }
 
  @media screen and (max-width:576px) {
-
+    
+    nav{
+        border-bottom: 1px solid #FEA301 ;
+    }
+    .mbl{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .logo h3 , .menu, .navbtn{
+        display: none;
+    }
+   
+    .banner{
+        flex-direction: column;
+        justify-content: start;
+        padding: 0px 20px;
+        text-align: center;
+    }
+    .banner-image{
+        order: 1;
+    }
+    .banner-text{
+        order: 2;
+    }
     .cards{
         flex-direction: column;
         justify-content: start;
@@ -399,5 +427,8 @@ marquee{
     }
     .ft1, .ft2, .ft3{
         padding-top: 30px ;
+    }
+    .ft2 h3{
+        font-weight: 600 ;
     }
  }
