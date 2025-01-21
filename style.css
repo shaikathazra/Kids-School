@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 *{
 	margin: 0px;
@@ -18,6 +20,14 @@
 
 .quicksand-font {
   font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.raleway-front {
+  font-family: "Raleway", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -235,8 +245,8 @@ nav{
 }
 .sm-st-card {
     background-color: #FFFFFF;
-    /* margin-bottom:20px ; */
-    border-radius:16px 16px 16px 26px ;
+    margin-bottom:20px ;
+    border-radius:16px 16px 16px 16px ;
     background-color: #FFFFFF;
     
 }
@@ -248,11 +258,24 @@ nav{
     margin-top: -16px;
 }
 .date span{
-    background-color: #01ACFD;
+    
     padding: 10px;
     border-radius: 48px;
+    font-weight: 500px;
+    font-size: 1rem;
+    color: #FFFFFF;
     
 }
+.date-clr1{
+     background-color: #3CD8E8;
+}
+.date-clr2{
+    background-color: #95B226;
+}
+.date-clr3{
+    background-color: #5D58F0;
+}
+
  .cntnt{
     padding-left: 40px;
     padding-right: 5px;
@@ -262,12 +285,13 @@ nav{
  .cntnts{
     padding-left: 40px;
     
-    background-color: #FFFFFF;
     
  }
  .cntnts h3{
     padding-top:20px ;
     padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 1rem;
  }
  .cntnt h3{
     padding-top: 40px;
