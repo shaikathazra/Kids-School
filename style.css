@@ -33,6 +33,7 @@
   font-style: normal;
 }
 
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -341,6 +342,7 @@ marquee{
     padding: 20px 0px;
  }
  .ft1{
+    
     max-width: 400px;
  }
  .ft1 h3{
@@ -373,4 +375,29 @@ marquee{
     font-size:1.625rem ;
     padding-bottom: 20px;
 
+ }
+
+ @media screen and (max-width:576px) {
+
+    .cards{
+        flex-direction: column;
+        justify-content: start;
+        padding: 0px 20px;
+
+    }
+    .icn{
+        display: none;
+    }
+    .big-st-card{
+        display: none;
+    }
+    
+    .ft{
+        flex-direction: column;
+        justify-content: start;
+        padding-left: 20px;
+    }
+    .ft1, .ft2, .ft3{
+        padding-top: 30px ;
+    }
  }
