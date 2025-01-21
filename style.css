@@ -384,11 +384,16 @@ marquee{
  @media screen and (max-width:576px) {
     
     nav{
+        padding-left: 20px;
+        padding-right: 20px;
         border-bottom: 1px solid #FEA301 ;
     }
     .mbl{
         display: flex;
         justify-content: space-between;
+    }
+    .mbl span{
+        font-size: 30px;
     }
     
     .logo h3 , .menu, .navbtn{
@@ -403,6 +408,9 @@ marquee{
     }
     .banner-image{
         order: 1;
+    }
+    .banner-image img{
+        width: 430px;
     }
     .banner-text{
         
