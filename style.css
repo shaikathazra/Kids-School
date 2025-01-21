@@ -235,10 +235,12 @@ nav{
 }
 .sm-st-card {
     background-color: #FFFFFF;
-    margin-bottom:20px ;
+    /* margin-bottom:20px ; */
+    border-radius:16px 16px 16px 26px ;
+    background-color: #FFFFFF;
     
 }
-.sm-st-card image{
+.sm-st-card img{
     border-radius: 16px 16px 0px 0px;
 }
 .date{
@@ -253,8 +255,32 @@ nav{
 }
  .cntnt{
     padding-left: 40px;
+    padding-right: 5px;
     background-color: #FFFFFF;
     border-radius:0px 0px 16px 16px ;
+ }
+ .cntnts{
+    padding-left: 40px;
+    
+    background-color: #FFFFFF;
+    
+ }
+ .cntnts h3{
+    padding-top:20px ;
+    padding-bottom: 20px;
+ }
+ .cntnt h3{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+ }
+ .cntnt p{
+    padding-right: 10px;
+    padding-bottom: 30px;
+    font-size: 1rem;
+    font-weight: 500px;
+    color: #666666;
  }
  .big-st-card img{
     border-radius: 16px 16px 0px 0px;
