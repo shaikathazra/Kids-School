@@ -220,8 +220,10 @@ nav{
     margin-bottom: 60px;
  }
 .sm-stories{
-    display:grid;
-    grid-template-columns: auto auto;
+    /* display:grid; */
+    /* grid-template-columns: auto auto; */
+    display:flex ;
+    flex-direction: row;
     
 
 }
@@ -235,6 +237,9 @@ nav{
     background-color: #FFFFFF;
     margin-bottom:20px ;
     
+}
+.sm-st-card image{
+    border-radius: 16px 16px 0px 0px;
 }
 .date{
     
@@ -253,4 +258,62 @@ nav{
  }
  .big-st-card img{
     border-radius: 16px 16px 0px 0px;
+ }
+ footer{
+    background-color: #49C3FD;
+    padding-top: 20px;
+ }
+ .ft{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-top: 100px;
+    padding-bottom: 150px;
+ }
+ .ft-lg{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+ }
+ .ft-lg img{
+    width: 80px;
+ }
+ .ft p{
+    font-weight: 500px;
+    color: #FFFFFF;
+    padding: 20px 0px;
+ }
+ .ft1{
+    max-width: 400px;
+ }
+ .ft1 h3{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size:2.625rem ;
+
+ }
+ .ft2 h3{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size:1.5rem ;
+    padding-bottom: 10px;
+
+ }
+ .ft2 ul li{
+    list-style: none;
+    padding-top: 20px;
+ }
+ .ft2 ul li a{
+    text-decoration: none;
+    font-size:1.25rem ;
+    color: #FFFFFF;
+    font-weight: 500px;
+    
+ }
+ .ft3 h3{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size:1.625rem ;
+    padding-bottom: 20px;
+
  }
