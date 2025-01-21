@@ -181,6 +181,18 @@ nav{
     border-width: 1px;
     background-image: linear-gradient(#EEE1FF , #FFFFFF 40%);
 }
+.icn{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.icn-btn{
+    background-color: #FEA301;
+    padding: 20px 22px;
+    border-radius:50px ;
+    font-size: 20px;
+    font-weight: 800px;
+    color:#FFFFFF
+}
 .two{
     background-image: url(./assets/bg.png),linear-gradient(#ffffffd8 , #fea10161) ; 
     background-repeat: no-repeat;
