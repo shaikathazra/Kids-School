@@ -397,7 +397,7 @@ marquee{
    
     .banner{
         flex-direction: column;
-        justify-content: start;
+        justify-content: center;
         padding: 0px 20px;
         text-align: center;
     }
@@ -405,7 +405,22 @@ marquee{
         order: 1;
     }
     .banner-text{
+        
         order: 2;
+        padding:10px  0px;
+    }
+    .banner-text h1{
+        font-size: 2rem;
+    }
+    .banner-text p{
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .title h3{
+        font-size: 30px;
+        font-weight: bold;
     }
     .cards{
         flex-direction: column;
@@ -416,10 +431,48 @@ marquee{
     .icn{
         display: none;
     }
+    .date span{
+    
+        
+        
+        
+        font-size: 10px;
+        
+        
+    }
+    .cntnts h3{
+        /* padding-top:20px ;
+        padding-bottom: 20px;
+        font-weight: bold; */
+        font-size: 12px;
+     }
     .big-st-card{
         display: none;
     }
-    
+    .sm-stories{
+         display: flex; 
+        /* flex-direction: row; */
+        
+        gap: 10px;
+        margin: 15px;
+        /* padding-right: 10px;
+        padding-left: 10px; */
+        
+    }
+    .stories-sm-one{
+        
+        margin: 0px;
+        padding: 0px;
+    }
+    .stories-sm-two {
+        padding: 0px;
+    }
+    .sm-st-card{
+        display: flex;
+        flex-direction: column;
+        max-width: 220px;
+        
+    }
     .ft{
         flex-direction: column;
         justify-content: start;
