@@ -460,12 +460,16 @@ marquee{
     .sm-stories{
          display: flex; 
         /* flex-direction: row; */
-        
+        justify-content: space-around;
         gap: 10px;
-        margin: 15px;
+        /* margin: 15px; */
         /* padding-right: 10px;
         padding-left: 10px; */
         
+    }
+    .stories{
+        
+        justify-content: space-around;
     }
     .stories-sm-one{
         
