@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
+
 *{
 	margin: 0px;
 	padding: 0px;
@@ -181,15 +182,30 @@ nav{
     background-image: linear-gradient(#EEE1FF , #FFFFFF 40%);
 }
 .two{
-    background-image: url(./assets/bg.png),linear-gradient(#FFFFFF , #FEA301) ; 
+    background-image: url(./assets/bg.png),linear-gradient(#ffffffd8 , #fea10161) ; 
     background-repeat: no-repeat;
     background-size: cover;
+    
     
 }
  .stories{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 80px auto;
+ }
+ .st-btn{
+    text-align: center;
+ }
+ .st-btn button{
+    font-size:1.25rem;
+    font-weight: bold;
+    padding: 10px 47px;
+    border-radius: 12px;
+    border: none;
+    background-color:#111111 ;
+    color: #FFFFFF;
+    margin-bottom: 60px;
  }
 .sm-stories{
     display:grid;
@@ -205,7 +221,7 @@ nav{
 }
 .sm-st-card {
     background-color: #FFFFFF;
-    margin-bottom:10px ;
+    margin-bottom:20px ;
     
 }
 .date{
