@@ -9,7 +9,7 @@
 
 .container{
 
-	width: 1160px;
+	max-width: 1160px;
 	margin: 0px auto;
     
 }
@@ -111,8 +111,118 @@ nav{
 } 
 .one{
     background-image: url(./assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .title h3{
     font-weight: bold;
     font-size: 2.875rem;
+    padding-top: 60px;
+    text-align: center;
 }
+.cards{
+    margin: 80px auto;
+    display: flex;
+    justify-content:space-between;
+    gap:28px ;
+    align-items: center;
+}
+.card{
+    padding: 60px 25px ;
+    border: 2px;
+    border-color: #111111;
+    text-align: center;
+    border-radius: 12px;
+}
+.card h3{
+    padding-top: 30px;
+    color: 202020;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+.des{
+    padding: 25px 0px;
+    font-weight: 500px;
+    font-size: 1rem;
+    color: #808080;
+}
+.rm{
+    font-weight: bold;
+    font-size: 1rem;
+
+    
+}
+.rm1{
+    color:#64C8FF;
+}
+.rm2{
+    color:#F0AA00;
+}
+.rm3{
+    color:#8700FF;
+}
+
+.c1{
+    border: solid;
+    border-color:#DEF5FF ;
+    border-width: 1px;
+    background-image: linear-gradient(#DEF5FF , #FFFFFF 40%);
+}
+.c2{
+    border: solid;
+    border-color:#FFF4DC ;
+    border-width: 1px;
+    background-image: linear-gradient(#FFF4DC , #FFFFFF 40%);
+}
+.c3{
+    border: solid;
+    border-color:#F2E8FF ;
+    border-width: 1px;
+    background-image: linear-gradient(#EEE1FF , #FFFFFF 40%);
+}
+.two{
+    background-image: url(./assets/bg.png),linear-gradient(#FFFFFF , #FEA301) ; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+ .stories{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+.sm-stories{
+    display:grid;
+    grid-template-columns: auto auto;
+    
+
+}
+.stories-sm-one{
+    padding: 20px;
+}
+.stories-sm-two{
+    padding: 20px 20px 20px 0px;
+}
+.sm-st-card {
+    background-color: #FFFFFF;
+    margin-bottom:10px ;
+    
+}
+.date{
+    
+    margin-top: -16px;
+}
+.date span{
+    background-color: #01ACFD;
+    padding: 10px;
+    border-radius: 48px;
+    
+}
+ .cntnt{
+    padding-left: 40px;
+    background-color: #FFFFFF;
+    border-radius:0px 0px 16px 16px ;
+ }
+ .big-st-card img{
+    border-radius: 16px 16px 0px 0px;
+ }
